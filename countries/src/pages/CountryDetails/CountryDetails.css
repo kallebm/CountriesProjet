@@ -1,0 +1,90 @@
+.country_details_container {
+  display: flex;
+  padding: 3em;
+  height: 100vh;
+  max-width: 1400px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.general_details {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.general_details img {
+  max-width: 100%;
+  width: 100%;
+  flex: 0.5 1;
+}
+
+.general_details h2 {
+  padding: 0.4em 0 0.7em 0;
+  text-align: center;
+  font-size: 2em;
+}
+
+.specific_details {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 5rem;
+}
+
+.specific_details h2 {
+  text-align: center;
+  margin-bottom: 0.6em;
+}
+
+.country_details {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2em;
+}
+
+.country_details span {
+  font-weight: bold;
+  color: #767676;
+}
+
+.country_details p {
+  margin-bottom: 1.3em;
+  color: #afafaf;
+}
+
+.border_countries {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 0.5em;
+  flex-wrap: wrap;
+  background-color: rgb(174, 176, 177);
+  padding: 1em;
+  border-radius: 5px;
+}
+
+.border_countries a {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fefefe;
+  background-color: rgb(134, 136, 139);
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  margin-bottom: 0.5em;
+  transition: 0.5s;
+}
+
+.border_countries a:hover {
+  color: black;
+  background-color: rgb(144, 153, 165);
+}
+
+.border_countries img {
+  width: 16px;
+  height: 12px;
+  margin-right: 0.3em;
+}

@@ -1,0 +1,8 @@
+.countries_container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1400px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding: 2em;
+}

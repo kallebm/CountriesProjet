@@ -1,0 +1,21 @@
+.search {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: white;
+  padding: 0.8em;
+  border-radius: 5px;
+  position: relative;
+}
+.search svg {
+  position: absolute;
+  right: 5%;
+  font-size: 1.6rem;
+}
+
+.search input {
+  border: none;
+  outline: none;
+  padding-right: 2rem;
+  font-size: 1em;
+}

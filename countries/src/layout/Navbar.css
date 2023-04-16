@@ -1,0 +1,29 @@
+#navbar {
+  background-color: #ccc;
+  max-width: 100vw;
+  width: 100%;
+  padding: 1.5em;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar a {
+  padding-left: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  text-decoration: none;
+  color: #333;
+  font-family: Helvetica, sans-serif;
+}
+
+.logo_image {
+  font-size: 4.5rem;
+  color: #444;
+}
+
+
